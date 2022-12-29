@@ -1,8 +1,10 @@
+/* Variables */
+$color-text-one: #ffffff;
+
 /* Global */
 
 
 /* Nav-bar */
-
 nav {
   padding: 0 10px;
 }
@@ -33,6 +35,23 @@ nav i {
 
 .events .card-body {
   position: absolute;
+}
+
+/* Events */
+
+.events{
+  color: $color-text-one;
+}
+
+.events .card {
+  margin-bottom: 24px;
+}
+
+.vertical{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
 }
 
 /* Footer Upper */
