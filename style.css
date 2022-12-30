@@ -36,10 +36,6 @@ nav i {
   color: #ffffff;
 }
 
-.events .card {
-  margin-bottom: 24px;
-}
-
 .vertical {
   position: absolute;
   top: 50%;
@@ -55,4 +51,8 @@ footer {
 .footer_upper .card {
   border: none;
   background-color: #eff2f5;
+}
+
+i {
+  padding-top: 19px;
 }
