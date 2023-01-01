@@ -1,5 +1,14 @@
 /* Variables */
 /* Global */
+body {
+  margin: 0;
+  background: #fff;
+  color: #3d3d3d;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: 'Roboto', sans-serif;
+}
+
 /* Nav-bar */
 nav {
   padding: 0 10px;
@@ -13,6 +22,16 @@ nav i {
 .carousel-inner,
 .carousel-item {
   height: 100vh;
+}
+
+.carousel-caption {
+  top: 50%;
+}
+
+.carousel-caption h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 7rem;
+  padding: 20px 0 40px 0;
 }
 
 .carousel-item img {
@@ -43,6 +62,28 @@ nav i {
   transform: translate(-50%, -50%);
 }
 
+.events h5 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  padding: 20px 0 20px 0;
+}
+
+/* Benefits */
+.USPBenefits h3 {
+  font-weight: 300;
+  font-size: 2rem;
+  padding: 0 0 20px 0;
+  margin-bottom: 0;
+}
+
+.USPBenefits .card-body {
+  padding: 0;
+}
+
+.USPBenefits .card {
+  padding: 20px 0 20px 0;
+}
+
 /* Footer Upper */
 footer {
   background-color: #eff2f5;
@@ -53,6 +94,11 @@ footer {
   background-color: #eff2f5;
 }
 
-i {
+.footer_lower {
+  border: none;
+  background-color: #d0dbe1;
+}
+
+footer i {
   padding-top: 19px;
 }
