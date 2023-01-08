@@ -13,29 +13,17 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* Nav-bar */
-nav {
-  padding: 0 10px;
-}
-
-nav i {
-  padding: 0 4 0 0;
-}
-
 /* Slider */
 .carousel-inner,
 .carousel-item {
   height: 100vh;
 }
 
-.carousel-caption {
-  top: 50%;
-}
-
 .carousel-caption h3 {
   font-family: 'Playfair Display', serif;
   font-size: 7rem;
   padding: 20px 0 40px 0;
+  
 }
 
 .carousel-item img {
@@ -59,13 +47,6 @@ nav i {
   color: $color-text-one;
 }
 
-.vertical {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .events h5 {
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
@@ -73,18 +54,14 @@ nav i {
 }
 
 /* Benefits */
-.USPBenefits h3 {
+.usp-benefits h3 {
   font-weight: 300;
   font-size: 2rem;
   padding: 0 0 20px 0;
   margin-bottom: 0;
 }
 
-.USPBenefits .card-body {
-  padding: 0;
-}
-
-.USPBenefits .card {
+.usp-benefits .card {
   padding: 20px 0 20px 0;
 }
 
@@ -101,8 +78,4 @@ footer {
 .footer_lower {
   border: none;
   background-color: $color-footer-one;
-}
-
-footer i {
-  padding-top: 19px;
 }
