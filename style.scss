@@ -1,0 +1,81 @@
+/* Variables */
+$color-text-one: #ffffff;
+$color-footer-one: #d0dbe1;
+$color-footer-two: #eff2f5;
+
+/* Global */
+body {
+  margin: 0;
+  background: #fff;
+  color: #3d3d3d;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Slider */
+.carousel-inner,
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-caption h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 7rem;
+  padding: 20px 0 40px 0;
+  
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Products */
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.events .card-body {
+  position: absolute;
+}
+
+/* Events */
+.events {
+  color: $color-text-one;
+}
+
+.events h5 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  padding: 20px 0 20px 0;
+}
+
+/* Benefits */
+.usp-benefits h3 {
+  font-weight: 300;
+  font-size: 2rem;
+  padding: 0 0 20px 0;
+  margin-bottom: 0;
+}
+
+.usp-benefits .card {
+  padding: 20px 0 20px 0;
+}
+
+/* Footer Upper */
+footer {
+  background-color: $color-footer-two;
+}
+
+.footer_upper .card {
+  border: none;
+  background-color: $color-footer-two;
+}
+
+.footer_lower {
+  border: none;
+  background-color: $color-footer-one;
+}
